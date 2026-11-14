@@ -4,9 +4,9 @@
 ## Project Overview
 The Student Management System is a Python application that connects to a PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations on student rows using SQL queries.
 The application supports four functions:
-- `getStudents()` – Execute a SELECT query to retrieve all rows from the students table.
+- `getAllStudents()` – Execute a SELECT query to retrieve all rows from the students table.
 - `addStudent()` – Execute an INSERT query to add a new row.
-- `updateStudentEmail()` – Execute an UPDATE query to modify a student's email.
+- `updateStudentEmail()` – Execute an UPDATE query to edit a student's email.
 - `deleteStudent()` – Execute a DELETE query to remove a student row.
 
 ## Setup Instructions
@@ -14,7 +14,7 @@ The application supports four functions:
 2. Connect to the Carleton University VPN when working off campus.
 3. Set up a PostgreSQL database named `student_management` on the Carleton OpenStack instance.
 4. Run the provided SQL script to create the `students` table and insert the initial rows.
-5. Create a `.env` file in the project directory: `PASSWORD=your_postgresql_password`
+5. Create a `.env` file in the project directory: `PASSWORD=postgresql_pwd`
 6. Add a `.env` file in `.gitignore` to prevent uploading credentials to GitHub.
 
 ## Building and Running
