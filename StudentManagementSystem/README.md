@@ -18,12 +18,12 @@ The application supports four functions:
 6. Add a `.env` file in `.gitignore` to prevent uploading credentials to GitHub.
 
 ## Building and Running
-**Step 1: Start the SSH tunnel**
+**1: Start the SSH tunnel**
 Open a Windows PowerShell terminal and run:
 `ssh -N -o ExitOnForwardFailure=yes -L 127.0.0.1:5433:127.0.0.1:5432 student@134.117.131.55`
 Enter your SSH password and keep terminal open.
 
-**Step 2: Run the application**
+**2: Run the application**
 Open another PowerShell terminal, navigate to the folder containing `main.py`, and run: `python main.py`
 The application connects to PostgreSQL through `localhost` on port `5433`.
 
