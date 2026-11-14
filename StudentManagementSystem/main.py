@@ -20,7 +20,7 @@ print("DB Connected!")
 
 
 #retreive table 
-def getStudents(connect):
+def getAllStudents(connect):
     #used cursor to allow python to send sql queries to db
     cursor=connect.cursor()
     cursor.execute("SELECT * FROM students")
@@ -73,16 +73,16 @@ def deleteStudent(connect, student_id):
 #test create
 #print("\nTesting create and read:")
 #addStudent(connect, "Jumana", "Ab", "jumana.ab@example.com", "2026-11-13")
-#getStudents(connect)
+#getAllStudents(connect)
 
 # test update
 #print("\nTesting update:")
 #updateStudentEmail(connect, 4, "jumana.abufares@example.com")
-#getStudents(connect)
+#getAllStudents(connect)
 
 #test delete
 print("\nTesting delete:")
 deleteStudent(connect, 4)
-getStudents(connect)
+getAllStudents(connect)
 
 connect.close()
