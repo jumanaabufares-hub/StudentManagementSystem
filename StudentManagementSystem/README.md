@@ -31,4 +31,4 @@ Successful Connection:
 When the application successfully connects to the PostgreSQL database, the following message is displayed:
 	Starting DB connection...
 	DB Connected!
-	** demonstration video recording: https://drive.google.com/file/d/1nGx1lhhMGrgFTcSJaxXAyM2x0lmtRb7Y/view?usp=sharing 
+	**demonstration video recording: https://drive.google.com/file/d/1nGx1lhhMGrgFTcSJaxXAyM2x0lmtRb7Y/view?usp=sharing**
