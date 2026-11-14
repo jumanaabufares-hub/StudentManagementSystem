@@ -1,0 +1,9 @@
+# DB password
+.env
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# VS files
+.vs/
