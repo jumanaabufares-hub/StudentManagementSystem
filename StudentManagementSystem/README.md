@@ -21,7 +21,7 @@ The application supports four functions:
 **1: Start the SSH tunnel**
 Open a Windows PowerShell terminal and run:
 `ssh -N -o ExitOnForwardFailure=yes -L 127.0.0.1:5433:127.0.0.1:5432 student@134.117.131.55`
-Enter your SSH password and keep terminal open.
+Enter SSH password and keep terminal open.
 
 **2: Run the application**
 Open another PowerShell terminal, navigate to the folder containing `main.py`, and run: `python main.py`
