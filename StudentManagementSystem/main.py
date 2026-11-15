@@ -77,12 +77,12 @@ def deleteStudent(connect, student_id):
 
 # test update
 #print("\nTesting update:")
-#updateStudentEmail(connect, 4, "jumana.abufares@example.com")
+#updateStudentEmail(connect, n, "jumana.abufares@example.com")//change n to student_id
 #getAllStudents(connect)
 
 #test delete
-print("\nTesting delete:")
-deleteStudent(connect, 4)
-getAllStudents(connect)
+#print("\nTesting delete:")
+#deleteStudent(connect, n)//change n to student_id
+#getAllStudents(connect)
 
 connect.close()
